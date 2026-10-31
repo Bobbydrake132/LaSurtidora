@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Surtidora - Tienda en Línea</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>La Surtidora</h1>
+    <div class="cart-status">
+      🛒 Carrito: <span id="cart-count">0</span> artículos
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="catalog">
+      <h2>Catálogo de Productos</h2>
+      <div id="product-list" class="grid-products"></div>
+    </section>
+
+    <aside class="cart-section">
+      <h2>Tu Carrito</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $ <span id="cart-total">0.00</span></p>
+      <button id="checkout-btn" onclick="procesarCompra()">Finalizar Compra</button>
+      <div id="status-message" class="message"></div>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

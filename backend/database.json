@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "Arroz Extra 1kg",
+        "precio": 28.5,
+        "stock": 5
+    },
+    {
+        "id": 2,
+        "nombre": "Aceite Vegetal 900ml",
+        "precio": 45,
+        "stock": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Frijol Negro 1kg",
+        "precio": 34,
+        "stock": 0
+    }
+]
